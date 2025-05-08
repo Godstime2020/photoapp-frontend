@@ -1,4 +1,4 @@
-const BASE_URL = 'https://photoshare-grh3b6atckgxbgbc.uksouth-01.azurewebsites.net/';
+const BASE_URL = 'https://photoshare-grh3b6atckgxbgbc.uksouth-01.azurewebsites.net';
 
 export const login = async (credentials) => {
     console.log(`${BASE_URL}/api/auth/login`);
